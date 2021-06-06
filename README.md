@@ -3,4 +3,4 @@ Simple interface for a company called Horiseon that can jump down to specific se
 
 https://aabazary.github.io/Horiseon/
 
-C:\Users\aabaz\Homework\Horiseon\assets\images\01-html-css-git-homework-demo.png
+![](assets/images/01-html-css-git-homework-demo.png)
