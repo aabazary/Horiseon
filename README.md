@@ -1,1 +1,2 @@
 #Horiseon
+Simple interface for a company called Horiseon that can jump down to specific segments of the page by clicking either "search engine optimization", "online reputation managment" or "social media marketing".
