@@ -1,18 +1,25 @@
+
 * {
+    /*sets the method to calculate the height and width of elements to border-box*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /* changes background color of the page*/
     background-color: #d9dcd6;
 }
 
+
 .header {
+    /*adjusts the padding of the header*/
     padding: 20px;
+    /*sets the font family used in the header*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    position: relative;
 }
 
 .header h1 {
@@ -135,6 +142,7 @@ p {
 }
 
 .search-engine-optimization {
+    /* controls search engine Optimization box and the content within it*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +152,7 @@ p {
 }
 
 .online-reputation-management {
+    /* controls online reputation management box and the content within it*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +162,7 @@ p {
 }
 
 .social-media-marketing {
+    /* controls search social media marketing box and the content within it*/
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -162,33 +172,40 @@ p {
 }
 
 .search-engine-optimization img {
+    /* class for search engine optimization image, controlling height*/
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    /*class for online reputation mangement image, controlling height*/
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    /*class for social media marketing image, controlling height*/ 
     max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+    /* controls the bottom margin and font size for the search engine optimization space*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
+    /* controls the bottom margin and font size for the online reputation space*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
+    /* controls the bottom margin and font size for the social media marketing space*/
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .footer {
+    /* class controlling the configuration of the footer*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -196,5 +213,6 @@ p {
 }
 
 .footer h2 {
+    /* class controling font size of footer*/
     font-size: 20px;
 }
